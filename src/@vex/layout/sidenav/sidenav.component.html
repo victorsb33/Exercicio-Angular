@@ -3,7 +3,7 @@
      [class.collapsed]="collapsed"
      [class.open]="collapsed && collapsedOpen$ | async"
      class="sidenav flex flex-col">
-  <div class="sidenav-toolbar flex-none flex items-center">
+  <!-- <div class="sidenav-toolbar flex-none flex items-center">
     <img [src]="imageUrl$ | async" class="w-6 select-none flex-none">
     <h2 class="title ltr:pl-4 rtl:pr-4 select-none flex-auto">{{ title$ | async }}</h2>
     <button (click)="toggleCollapse()"
@@ -14,7 +14,7 @@
       <mat-icon *ngIf="!collapsed" [icIcon]="icRadioButtonChecked" size="14px"></mat-icon>
       <mat-icon *ngIf="collapsed" [icIcon]="icRadioButtonUnchecked" size="14px"></mat-icon>
     </button>
-  </div>
+  </div> -->
 
   <vex-scrollbar class="flex-auto">
     <div class="sidenav-items">
